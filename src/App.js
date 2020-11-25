@@ -29,8 +29,8 @@ async function fetchNotes() {
 }
 
 async function onChange(e) {
-  if (!e.target.files[0]) return
-  const file = e.target.files[0];
+   if (!e.target.files[0]) return
+     const file = e.target.files[0];
   setFormData({ ...formData, image: file.name });
   await Storage.put(file.name, file);
   fetchNotes();
