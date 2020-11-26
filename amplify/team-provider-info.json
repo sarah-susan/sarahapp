@@ -10,11 +10,6 @@
       "StackName": "amplify-sarahapp-dev-83952",
       "StackId": "arn:aws:cloudformation:eu-west-1:333598234162:stack/amplify-sarahapp-dev-83952/a14075f0-2979-11eb-8ddf-029fee76954c",
       "AmplifyAppId": "d3pvvnw9tb3en3"
-    },
-    "categories": {
-      "auth": {
-        "sarahappafd78136": {}
-      }
     }
   }
 }
