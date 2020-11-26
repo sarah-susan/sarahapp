@@ -1,5 +1,12 @@
 {
-  "auth": {},
+  "auth": {
+    "sarahapp6fbb17c8": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
   "api": {
     "notesapp": {
       "service": "AppSync",
